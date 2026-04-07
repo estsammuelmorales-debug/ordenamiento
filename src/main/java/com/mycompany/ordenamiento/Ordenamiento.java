@@ -1,10 +1,24 @@
 
 package com.mycompany.ordenamiento;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 
 public class Ordenamiento {
 
     public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("¿Cuántos números va a ingresar?: ");
+        int n = sc.nextInt();
+
+        int arr[] = new int[n];
+
+    }
+    
+    public static void ordenar(String[] args) {
         int arr[] = {5, 2, 11, -8, 115, 56, -3};
         ordenar(arr);
         System.out.println(java.util.Arrays.toString(arr));
@@ -20,4 +34,5 @@ public class Ordenamiento {
             }
         }
     }
+   
 }
