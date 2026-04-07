@@ -54,6 +54,9 @@ public class Ordenamiento {
                 min = j;
             }
         }
+        int temp = v[i];
+        v[i] = v[min];
+        v[min] = temp;
     }
 }
 
