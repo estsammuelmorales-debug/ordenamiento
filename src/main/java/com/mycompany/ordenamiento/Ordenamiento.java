@@ -15,6 +15,15 @@ public class Ordenamiento {
         int n = sc.nextInt();
 
         int arr[] = new int[n];
+        
+        for (int i = 0; i < n; i++) {
+            System.out.print("Ingrese el número " + (i + 1) + ": ");
+            arr[i] = sc.nextInt();
+        }
+
+        ordenar(arr);
+
+        System.out.println(Arrays.toString(arr));
 
     }
     
